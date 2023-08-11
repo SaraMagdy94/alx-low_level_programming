@@ -5,7 +5,7 @@
 /* more headers goes there */
 
 /**
- * main - Prints a random number 
+ * main - Prints a random number
  * it is positive, negative, or zero.
  * Return: Always 0.
 */
