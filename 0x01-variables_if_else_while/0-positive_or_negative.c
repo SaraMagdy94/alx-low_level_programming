@@ -4,12 +4,11 @@
 
 /* more headers goes there */
 
-/*
- * main - Entry point
- * Return: Always 0 (Success)
- */
-
-/* betty style doc for function main goes there */
+/**
+ * main - Prints a random number 
+ * it is positive, negative, or zero.
+ * Return: Always 0.
+*/
 
 int main(void)
 
