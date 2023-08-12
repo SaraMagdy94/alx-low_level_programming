@@ -32,7 +32,7 @@ int main(void)
 
 			putchar(l);
 			
-			l++;
+		l++;
 	}
 
 	putchar('\n');
