@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
  * main - Prints a alphabet in lowercase, followed by a new line.
@@ -8,9 +10,9 @@
 int main(void)
 {
 
-	char c = "a";
+	char c = 'a';
 
-	while (c <= "z")	
+	while (c <= 'z')
 	{
 
 		putchar(c);
@@ -18,7 +20,7 @@ int main(void)
 		c++;
 	}
 
-	putchar("\n");
+	putchar('\n');
 
 
 	return (0);
