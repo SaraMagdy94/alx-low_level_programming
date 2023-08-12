@@ -30,6 +30,8 @@ int main(void)
 
 	}
 	
+	
+
 	while (upper <= 'Z')
 	
 	{
