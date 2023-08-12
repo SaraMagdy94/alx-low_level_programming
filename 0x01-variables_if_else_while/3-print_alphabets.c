@@ -30,15 +30,16 @@ int main(void)
 
 	}
 
-	 while (upper <= 'Z')
 
-        {
+	while (upper <= 'Z')
+	
+	{
 
-                putchar(upper);
+		putchar(upper);
 
-                upper++;
-
-        }
+		upper++;
+		
+	}
 
 	
 
