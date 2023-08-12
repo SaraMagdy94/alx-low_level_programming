@@ -17,11 +17,9 @@ int main(void)
 	char R;
 
 
-
 	for (R = 'z'; R >= 'a'; R--)
 
 		putchar(R);
-
 
 		putchar('\n');
 
