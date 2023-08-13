@@ -17,9 +17,10 @@ int main(void)
 
 
 	for (R = 0; R <= 9; R++)
+	{
 
 		for (B = 0; B <= 9; B++)
-
+		{
 
 			putchar(R + '0');
 			putchar(R + '0');
@@ -29,6 +30,9 @@ int main(void)
 				putchar(',');
 				putchar(' ');
 
+		}
+
+	}
 
 	putchar('\n');
 
