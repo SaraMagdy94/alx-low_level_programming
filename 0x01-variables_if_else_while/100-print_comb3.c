@@ -25,7 +25,7 @@ int main(void)
 			putchar(R + '0');
 			putchar(B + '0');
 
-			if (R != 9 && B != 9)
+			if (R != 8 ||  B != 9)
 			{
 
 				putchar(',');
