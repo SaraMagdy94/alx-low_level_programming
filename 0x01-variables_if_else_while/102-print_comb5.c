@@ -15,7 +15,7 @@ int main(void)
 
 	for (R = 0; R <= 99; R++)
 	{
-		for (B = R; B <= 99; B++)
+		for (B = R + 1; B <= 99; B++)
 		{
 
 			putchar('0' + (R / 10));
