@@ -27,9 +27,8 @@ int main(void)
 	while (l <= 'z')
 
 	{
+		if (l != e && l != q)
 
-		if (l != e && l != q)	
-		
 			putchar(l);
 		l++;
 	}
