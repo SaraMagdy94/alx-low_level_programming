@@ -19,7 +19,7 @@ int main(void)
 	for (R = 0; R <= 9; R++)
 	{
 
-		for (B = 0; B <= 9; B++)
+		for (B = 1; B <= 9; B++)
 		{
 
 			putchar(R + '0');
