@@ -13,7 +13,7 @@ int main(void)
 	int R;
 	int B;
 
-	for (R = 0; R <= 99; R++)
+	for (R = 0; R <= 98; R++)
 	{
 		for (B = R + 1; B <= 99; B++)
 		{
