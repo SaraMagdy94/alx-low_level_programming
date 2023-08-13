@@ -1,0 +1,42 @@
+#include <stdio.h>
+
+
+/**
+ * main -  prints all possible different combinations of two digits
+ * Return: Always 0 (Success)
+ */
+
+
+int main(void)
+{
+
+	int R;
+	int B;
+
+	for (R = 0; R <= 99; R++)
+	{
+		for (B = R; B <= 99; B++)
+		{
+
+			putchar('0' + (R / 10));
+			putchar('0' + (R % 10));
+			putchar(' ');
+			putchar('0' + (B / 10));
+			putchar('0' + (B % 10));
+
+
+			if (R != 99 || B != 99)
+			{
+				putchar(',');
+				putchar(' ');
+
+			}
+		}
+	}
+
+
+	putchar('\n');
+
+	return (0);
+
+}
