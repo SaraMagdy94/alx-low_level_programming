@@ -23,7 +23,7 @@ int main(void)
 		{
 
 			putchar(R + '0');
-			putchar(R + '0');
+			putchar(B + '0');
 
 			if (R && B != 9)
 			{
