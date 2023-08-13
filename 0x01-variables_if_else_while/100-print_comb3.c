@@ -26,10 +26,12 @@ int main(void)
 			putchar(R + '0');
 
 			if (R && B != 9)
+			{
 
 				putchar(',');
 				putchar(' ');
 
+			}
 		}
 
 	}
