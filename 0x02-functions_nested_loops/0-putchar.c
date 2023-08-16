@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include "main.h"
 /**
  * main - Check description
  * Description: It prints _putchar, followed by a new line
@@ -12,8 +12,8 @@ int main(void)
 
 	for (int i = 0 ; i >= 8 ; i++)
 	{
-		putchar(R[i]);
+		_putchar(R[i]);
 	}
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
