@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "main.h"
 
 /**
  * main - Check description
@@ -9,11 +8,11 @@
 
 int main(void)
 {
-	char c[] = "_putchar";
+	char R[] = "_putchar";
 
-	for (int i = 0 ; c[i] != '\0' ; i++)
+	for (int i = 0 ; i >= 8 ; i++)
 	{
-		putchar(c[i]);
+		putchar(R[i]);
 	}
 	putchar('\n');
 	return (0);
