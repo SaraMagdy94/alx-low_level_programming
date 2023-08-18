@@ -9,7 +9,7 @@ int main(void)
 	{
 		if (n % LPF == 0)
 		{
-			 n = n / LPF;
+			n /= LPF;
 		}
 		else
 		{
@@ -17,7 +17,7 @@ int main(void)
 		}
 	}
 
-	printf("%li\n", LPF);
+	printf("%ld\n", LPF);
 	return (0);
 
 }
