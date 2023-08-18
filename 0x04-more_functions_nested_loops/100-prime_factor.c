@@ -7,7 +7,7 @@ int main(void)
 
 	while (n > 1)
 	{
-		if (n % LPF)
+		if (n % LPF == 0)
 		{
 			n /= LPF;
 		}
