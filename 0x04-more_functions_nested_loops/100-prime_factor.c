@@ -17,7 +17,7 @@ int main(void)
 		}
 	}
 
-	printf("%li\n", n);
+	printf("%li\n", LPF);
 	return (0);
 
 }
