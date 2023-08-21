@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* _atoi - a function that returns the length of a string.
+* _strlen - a function that returns the length of a string.
 * @s: The string to be converted.
 * Return: The integer value of the converted string.
 */
@@ -11,7 +11,7 @@ int _strlen(char *s)
 
 	for (r = 0; *s != '\0'; s++)
 	{
-		r++;
+		r++;	
 	}
 
 	return (r);
