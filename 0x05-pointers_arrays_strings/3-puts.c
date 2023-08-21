@@ -2,7 +2,7 @@
 /**
  * _puts - a  function that prints a string,
  * followed by a new line, to stdout.
- * @str - an input string
+ * @str: - an input string
 */
 
 void _puts(char *str)
