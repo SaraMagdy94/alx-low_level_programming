@@ -1,6 +1,7 @@
 #include "main.h"
 
 /**
+* _strlen - calculates the length of a string
 * print_rev - a function that prints a string,
 * in reverse, followed by a new line.
 * @s: is input string
@@ -24,7 +25,7 @@ void print_rev(char *s)
 	int b = _strlen(s);
 	int w;
 
-	for (w = b - 1; w >= 0; w-- )
+	for (w = b - 1; w >= 0; w--)
 	{
 		_putchar(s[w]);
 	}
