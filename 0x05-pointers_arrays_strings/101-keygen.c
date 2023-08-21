@@ -2,22 +2,27 @@
 #include <stdlib.h>
 #include <time.h>
 
-#define PASSWORD_LENGTH 84
-
 int main(void)
 {
 srand(time(NULL));
 
-char password[PASSWORD_LENGTH + 1]; 
+char password[65];
 int i;
- 
-for (i = 0; i < PASSWORD_LENGTH; i++)
-{
-password[i] = rand() % (126 - 33 + 1) + 33;
-}
-password[PASSWORD_LENGTH] = '\0';
 
-printf("%s\n", password);  
+for (i = 0; i < 64; i++)
+{
+int random_choice = rand() % 3;
+if (random_choice == 0)
+password[i] = 'A' + rand() % 26;
+else if (random_choice == 1)
+password[i] = 'a' + rand() % 26;
+else
+password[i] = '0' + rand() % 10;
+}
+
+password[64] = '\0';
+
+printf("%s\n", password);
 
 return 0;
 }
