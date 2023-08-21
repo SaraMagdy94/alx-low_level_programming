@@ -28,18 +28,19 @@ int _strlen(char *s)
 
 void rev_string(char *s)
 {
-    int b = _strlen(s);
-    int x = 0;
-    int y = b - 1;
+int b = _strlen(s);
+int x = 0;
+int y = b - 1;
 
-    while (x < y)
-    {
-        int tmp = s[x];
-        s[x] = s[y];
-        s[y] = tmp;
+while (x < y)
+{
+int tmp = s[x];
+s[x] = s[y];
+s[y] = tmp;
 
-        x++;
-        y--;
-    }
-
+x++;
+y--;  }
 }
+
+
+
