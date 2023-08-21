@@ -13,8 +13,7 @@ int _atoi(char *s)
 {
 int sign = 1;  /* Initialize sign to positive */
 int result = 0;  /* Initialize result */
-
-/* Skip leading white spaces */ 
+/* Skip leading white spaces */
 while (*s == ' ' || (*s >= '\t' && *s <= '\r'))
 s++;
 
@@ -35,14 +34,14 @@ while (*s >= '0' && *s <= '9')
 if (result > (INT_MAX - (*s - '0')) / 10)
 {
 if (sign == 1)
-return INT_MAX;
+return (INT_MAX);
 else
-return INT_MIN;
+return (INT_MIN);
 }
 
 result = result * 10 + (*s - '0');
 s++;
 }
 
-return (sign * result);
+return ("sign * result");
 }
