@@ -6,10 +6,13 @@
 
 int main(void)
 {
-srand(time(NULL));  
 
+int i;
+
+srand(time(NULL));  
 char password[PASSWORD_LENGTH + 1];  
-for (int i = 0; i < PASSWORD_LENGTH; i++)
+
+for (i = 0; i < PASSWORD_LENGTH; i++)
 {
 password[i] = rand() % (126 - 33 + 1) + 33;
 }
