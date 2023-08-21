@@ -6,6 +6,9 @@ int main(void)
 {
 srand(time(NULL));
 
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wdeclaration-after-statement"
+
 char password[65];
 int i;
 
@@ -23,6 +26,8 @@ password[i] = '0' + rand() % 10;
 password[64] = '\0';
 
 printf("%s\n", password);
+
+#pragma GCC diagnostic pop  
 
 return 0;
 }
