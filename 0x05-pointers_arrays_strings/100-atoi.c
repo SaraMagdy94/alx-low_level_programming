@@ -43,5 +43,5 @@ result = result * 10 + (*s - '0');
 s++;
 }
 
-return ("sign * result");
+return (sign * result);
 }
