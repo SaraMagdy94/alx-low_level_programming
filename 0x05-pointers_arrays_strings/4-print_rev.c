@@ -2,9 +2,8 @@
 
 /**
 * _strlen - calculates the length of a string
-* print_rev - a function that prints a string,
-* in reverse, followed by a new line.
-* @s: is input string
+* @s: is pointer string
+* Return: length of the string
 */
 
 int _strlen(char *s)
@@ -19,6 +18,13 @@ int _strlen(char *s)
 	}
 	return (r);
 }
+
+
+/**
+* print_rev - a function that prints a string,
+* in reverse, followed by a new line.
+* @s: is input string
+*/
 
 void print_rev(char *s)
 {
