@@ -7,23 +7,37 @@
 void print_number(int n)
 {
 
-unsigned int x = n;
+int div;
+int temp;
+
+div = 1;
+temp = n;
 
 if (n < 0)
 {
 
+n = n * -1;
 _putchar('-');
-x = -x;
+
+
 
 }
 
-if ((x / 10) > 0)
+while (temp > 9)
 {
 
-print_number(x / 10);
+temp = temp / 10;
+div = div * 10;
 
 }
-_putchar((x % 10) + '0');
+
+while (div != 0)
+{
+
+_putchar('0' + (n / div));
+n = n % div;
+div = div / 10;
 
 }
 
+}
