@@ -22,6 +22,7 @@ printf("%c ", a[r][b]);
 }
 
 printf("\n");
+
 }
 
 }
