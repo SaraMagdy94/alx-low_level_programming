@@ -17,7 +17,7 @@ for (r = 0; r < 8; r++)
 for (b = 0; b < 8; b++)
 {
 
-printf("%c ", a[r][b]);
+printf("%c", a[r][b]);
 
 }
 
