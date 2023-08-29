@@ -20,8 +20,7 @@ r = r + a[x * size + x];
 b = b + a[x * size + (size - 1 - x)];
 }
 
-printf("Sum of main diagonal: %d\n", r);
-printf("Sum of secondary diagonal: %d\n", b);
+printf("%d, %d\n", r, b);
 
 }
 
