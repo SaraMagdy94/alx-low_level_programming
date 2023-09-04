@@ -1,5 +1,5 @@
 #!/bin/bash
 gcc -c *.c
-ar -rcs libmy.a -o *.o
+ar -rcs liball.a -o *.o
 
 
