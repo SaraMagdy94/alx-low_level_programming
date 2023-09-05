@@ -2,11 +2,10 @@
 #include <stdlib.h>
 
 /**
- * main - a program that prints its name,
- * followed by a new line
- * @argc: arguement count
- * @argv: argument value
- * Return: Always (0)
+ * minCoins - a program that prints the minimum number of
+ * coins to make change for an amount of money.
+ * @cents: integer input
+ * Return: always (0)
  */
 
 int minCoins(int cents)
@@ -38,6 +37,13 @@ min_c++;
 return (min_c);
 }
 
+/**
+ * main - function to print out the change that needs to given
+ * @argc: number of arguments to be passed
+ * @argv: number of variables to calculate
+ * Return: always (0)
+ */
+
 int main(int argc, char *argv[])
 {
 
@@ -56,5 +62,6 @@ total = minCoins(cents);
 printf("%d\n", total);
 
 return (0);
+
 }
 
