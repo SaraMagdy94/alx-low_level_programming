@@ -20,45 +20,27 @@ sum = 0;
 
 if (argc > 1)
 {
-
 for (r = 1; r < argc; r++)
 {
-
 int b = 0;
 
 while (argv[r][b] != '\0')
 {
-
 if (!isdigit(argv[r][b]))
 {
-
 printf("Error\n");
-
 return (1);
-
 }
-
 b++;
-
 }
-
 sum += atoi(argv[r]);
-
 }
-
 }
-
 else
-
 {
-
 printf("0\n");
-
 }
-
 printf("%d\n", sum);
-
 return (0);
-
 }
 
