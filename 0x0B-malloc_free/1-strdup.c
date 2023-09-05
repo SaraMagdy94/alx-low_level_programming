@@ -9,24 +9,28 @@
  */
 
 
-
 char *_strdup(char *str)
 {
 
-unsigned int length;
-char *duplicate;
-length = strlen(str);
+unsigned int l;
+char *r;
 
-duplicate = malloc((length + 1) * sizeof(char));
+l = strlen(str);
+r = malloc((l + 1) * sizeof(char));
 
-if (str == NULL)
-return NULL;
+if (str == 0)
+{
+return (NULL);
+}
 
+if (r == 0)
+{
+return (NULL);
+}
 
-if (duplicate == NULL)
-return NULL;
+strcpy(r, str);
 
-strcpy(duplicate, str);
-return duplicate;
+return (r);
+
 }
 
