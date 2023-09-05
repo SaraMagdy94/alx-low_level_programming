@@ -2,6 +2,12 @@
 #include <stdlib.h>
 #include <string.h>
 
+/**
+ * _strdup - function to return ptr containing cpy of string
+ * @str: string to be copied
+ * Return: Null for failure else return ptr.
+ */
+
 char *_strdup(char *str)
 {
 
@@ -17,9 +23,7 @@ return (NULL);
 }
 
 while (str[l])
-{
 l++;
-}
 
 if (r == 0)
 {
