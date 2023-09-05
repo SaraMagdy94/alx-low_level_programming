@@ -8,36 +8,25 @@
  * Return: Null for failure else return ptr.
  */
 
+
+
 char *_strdup(char *str)
 {
 
-char *r;
-unsigned int x;
-unsigned int l = strlen(str);
-r = malloc((l + 1) * sizeof(char));
-l = 0;
+unsigned int length;
+char *duplicate;
+length = strlen(str);
 
-if (str == 0)
-{
-return (NULL);
+duplicate = malloc((length + 1) * sizeof(char));
+
+if (str == NULL)
+return NULL;
+
+
+if (duplicate == NULL)
+return NULL;
+
+strcpy(duplicate, str);
+return duplicate;
 }
-
-while (str[l])
-l++;
-
-if (r == 0)
-{
-return (NULL);
-}
-
-
-for (x = 0; x <= l; x++)
-{
-r[x] = str[x];
-}
-
-return (r);
-
-}
-
 
