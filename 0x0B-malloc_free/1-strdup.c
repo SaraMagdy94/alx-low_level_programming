@@ -20,12 +20,12 @@ char *r;
 l = strlen(str);
 r = malloc((l + 1) * sizeof(char));
 
-if (str == 0)
+if (str == NULL)
 {
 return (NULL);
 }
 
-if (r == 0)
+if (r == NULL)
 {
 
 fprintf(stderr, "failed to allocate memory\n");
