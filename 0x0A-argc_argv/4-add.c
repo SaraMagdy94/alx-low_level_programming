@@ -36,10 +36,7 @@ b++;
 sum += atoi(argv[r]);
 }
 }
-else
-{
-printf("0\n");
-}
+
 printf("%d\n", sum);
 return (0);
 }
