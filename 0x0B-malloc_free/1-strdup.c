@@ -1,6 +1,8 @@
 #include "main.h"
 #include <stdlib.h>
 #include <string.h>
+#include <stdio.h>
+
 
 /**
  * _strdup - function to return ptr containing cpy of string
@@ -25,7 +27,10 @@ return (NULL);
 
 if (r == 0)
 {
+
+fprintf(stderr, "failed to allocate memory\n");
 return (NULL);
+
 }
 
 strcpy(r, str);
