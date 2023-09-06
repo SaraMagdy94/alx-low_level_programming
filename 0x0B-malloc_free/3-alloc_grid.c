@@ -20,13 +20,13 @@ return (NULL);
 
 for (x = 0; x < height; x++)
 {
-g[i] = (int *)malloc(width * sizeof(int));
+g[x] = (int *)malloc(width * sizeof(int));
 
 if (g[x] == NULL)
 {
 for (y = 0; y < x; y++)
 {
-free(g[j]);
+free(g[y]);
 }
 
 free(g);
