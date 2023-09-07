@@ -42,13 +42,9 @@ if (r == NULL)
 return (NULL);
 }
 for (x = 0; x < lOne; x++)
-{
 r[x] = s1[x];
-}
 for (y = 0; y < n; y++)
-{
 r[x + y] = s2[y];
-}
 r[x + y] = '\0';
 return (r);
 }
