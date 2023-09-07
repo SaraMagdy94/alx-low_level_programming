@@ -36,7 +36,9 @@ if (n >= lTwo)
 {
 n = lTwo;
 }
+
 r = malloc(sizeof(char) * (lOne + n + 1));
+
 if (r == NULL)
 {
 return (NULL);
