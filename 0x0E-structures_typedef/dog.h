@@ -2,7 +2,7 @@
 #define DOG_H
 
 /**
- * struct dog - type struct dog.
+ * struct dog - function to typedef struct dog.
  * @d: pointer
  * @name: The name of the dog.
  * @age: The age of the dog.
