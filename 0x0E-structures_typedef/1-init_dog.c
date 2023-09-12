@@ -3,13 +3,12 @@
 #include <stdlib.h>
 
 /**
- * init_dog - a function that initialize a
- * variable of type struct dog.
- * @d: struct to initialize
- * @name: Dog's name
- * @age: Dog's age
- * @owner: Dog's owner
- * Return: Nothing.
+ * init_dog - function that initialize a variable of type struct dog
+ * @d: pointer
+ * @name: The name of the dog.
+ * @age: The age of the dog.
+ * @owner: The owner of the dog.
+ * Return: Always 0.
  */
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
@@ -21,3 +20,4 @@ d->age = age;
 d->owner = owner;
 }
 }
+
