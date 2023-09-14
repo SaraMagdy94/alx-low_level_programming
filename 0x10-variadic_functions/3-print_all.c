@@ -42,12 +42,9 @@ continue;
 }
 if (format[r + 1] != '\0')
 printf(", ");
-
 r++;
 }
-
 printf("\n");
-
 va_end(rb);
 }
 
