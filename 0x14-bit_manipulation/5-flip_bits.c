@@ -1,11 +1,11 @@
-/**
-* flp_bits - Returns the number of bits needed to flip from one number to another.
-* @n: First number.
-* * @m: Second number.
-* *
-* * Return: Number of bits to flip.
-*/
 
+/**
+ * flip_bits - Returns the number of bits needed to fli
+ * from one number to another.
+ * @n: First number.
+ * @m: Second number.
+ * Return: Number of bits to flip.
+ */
 unsigned int flip_bits(unsigned int n, unsigned int m)
 {
 	unsigned int d = n ^ m;
@@ -17,6 +17,6 @@ unsigned int flip_bits(unsigned int n, unsigned int m)
 		d >>= 1;
 	}
 
-	return c;
+	return (c);
 }
 
